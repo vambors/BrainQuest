@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<header>
+
+    <div class="cabecalho__container">
+        <img src="vambors logo.jpg" alt="Logo da pagina">
+    </div>
+</header>
+
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>BrainQuest</title>
+</head>
+
+<body>
+    <main>
+
+        <div class="passo ativo" id="passo-100">
+            <button class="btn-proximo" data-proximo="0"><img src="botão play.png" alt=""></button>
+        </div>
+
+        <div class="passo" id="passo-0">
+            <img src="cenario-passo0.jpeg" alt="">
+            <p> Voce um nobre aventureiro, se perde na floresta apos procurar por um monstro que havia se instalado na
+                região, depois de caminhar um pouco voce encontra um rio, sorte voce esta com muita sede!.</p>
+            <button class="btn-proximo" data-proximo="1">Beba agua </button>
+            <button class="btn-proximo" data-proximo="2">Suba o rio</button>
+            <button class="btn-proximo" data-proximo="13">desça o rio</button>
+            <button class="btn-proximo" data-proximo="21">atravesse o rio</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo1.jpeg" alt="a agua nao era tao boa assim....">
+            <p>voce se delicia com a agua fresca
+
+            <p>você morre, a agua estava estranha. </p>
+            <button class="btn-proximo" data-proximo="100">volte ao começo(restart)</button>
+
+            <img src="morte da agua.jpeg" alt="">
+        </div>
+        <div class="passo" id="passo-2">
+            <p>depois de uns minutos andando, voce nota que há muito sangue no chão a frente, mas nenhum corpo </p>
+
+            <button class="btn-proximo" data-proximo="3">Investigar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>após um tempo examinando você presencia uma agitacão nos arbustos, oque eu faço!!!!</p>
+            <button class="btn-proximo" data-proximo="4">espere</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="fantasma-vampiro.jpg" alt="">
+            <p>um monstro parecendo um fantasma-vampiro de uns 3 metros aparece, voce esta tao nervoso que nao consegue
+                se mexer!,ele te faz a seguinte pergunta com a condição de te deixar vivo se acertar a resposta, QUAL O
+                MEU NOME HUMANO!!!!!?????</p>
+            <button class="btn-proximo" data-proximo="5">aroldo</button>
+            <button class="btn-proximo" data-proximo="6">araldo</button>
+            <button class="btn-proximo" data-proximo="7">arildo</button>
+            <button class="btn-proximo" data-proximo="8">aruldo</button>
+
+        </div>
+        <div class="passo" id="passo-5">
+            <p>ele te come da cabeça aos pés...
+                
+            </p>
+            <button class="btn-proximo" data-proximo="100">volte ao começo(restart)</button>
+
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>ele sorri e aperta sua mão, com um sorriso no rosto te entrega uma chaave velha e desaparece.</p>
+            <button class="btn-proximo" data-proximo="9">continuar</button>
+
+        </div>
+        <div class="passo" id="passo-7">
+            <p>ele alem de abusar de voce, ele suga sua energia vital.
+              
+                
+            </p>
+
+            <button class="btn-proximo" data-proximo="100">volte ao começo(restart)</button>
+
+        </div>
+        <div class="passo" id="passo-8">
+            <p>ele te mata, burro!
+              </p>
+              <button class="btn-proximo" data-proximo="100">volte ao começo(restart)</button>
+
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Retornando e escolhendo o rio à esquerda, você encontra uma cachoeira escondida e algumas inscrições.</p>
+            <button class="btn-proximo" data-proximo="10">entrar</button>
+            <button class="btn-proximo" data-proximo="8">voltar e matar o fantasma-vampiro</button>
+
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>voce decide entrar, e encontra um bau misterioso muito bem trancado</p>
+            <button class="btn-proximo" data-proximo="11">usar a chave do fantasma-vampiro</button>
+            <button class="btn-proximo" data-proximo="7">voltar e matar o fantasma-vampiro</button>
+        </div>
+        <div class="passo" id="passo-11">
+            <p>voce posiciona a chave e ela gira sozinha, dentro dela cai uma espada nomeada de excalibur
+                <button class="btn-proximo" data-proximo="12">voltar e matar o fantasma-vampiro</button>
+
+        </div>
+        <div class="passo" id="passo-12">
+            <p>voce volta e o mata fantasma-vampiro, ele desaparece o amaldiçoando</p>
+            <button class="btn-proximo" data-proximo="20">Epílogo</button>
+
+        </div>
+
+        .....................................................................................................................
+
+
+        </div>
+        <div class="passo" id="passo-13">
+            <p>após um tempo descendo o rio você se depara com uma silhueta caida no chão, oque fazer? </p>
+            <button class="btn-proximo" data-proximo="14">pegue um galho para atacar</button>
+            <button class="btn-proximo" data-proximo="14">cutuque com o pé</button>
+
+        </div>
+        <div class="passo" id="passo-14">
+            <img src="" alt="">
+            <p>voce percebe que é uma mulher, ela ao te ver pede ajuda com a voz tremula</p>
+            <button class="btn-proximo" data-proximo="15">ajude</button>
+            <button class="btn-proximo" data-proximo="16">não ajude</button>
+        </div>
+
+
+        </div>
+        <div class="passo" id="passo-15">
+            <img src="manticora.jpeg" alt="">
+            <p>voce vai ajuda-la, porem, ela se transforma em uma manticora e te ataca
+            <p>
+                <button class="btn-proximo" data-proximo="100">volte ao começo(restart)</button>
+
+        </div>
+        <div class="passo" id="passo-16">
+            <p>voce decide nao ajuda-la e vai em direção oposta a ela, nisso voce encontra uma cabana abandonada</p>
+            <img src="cabana.jpg" alt="imagem cabana velha">
+            <button class="btn-proximo" data-proximo="17">entre</button>
+            <button class="btn-proximo" data-proximo="18">nao entre</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <p>voce entra e se depara com um machado a mesa </p>
+            <img src="cabana.jpg" alt="imagem cabana velha">
+            <button class="btn-proximo" data-proximo="19">pegue</button>
+            <button class="btn-proximo" data-proximo="18">saia da cabana</button>
+        </div>
+        <div class="passo" id="passo-18">
+            <img src="ogro.jpg" alt="">
+            <p>voce decide sair dali quando um ogro aparece, voce indefeso agoniza quieto
+               
+            </p>
+            <button class="btn-proximo" data-proximo="100">volte ao começo(restart)</button>
+
+        </div>
+
+
+        <div class="passo" id="passo-19">
+            <img src="ogro.jpg" alt="">
+            <p>voce decide sair dali quando um ogro aparece, com seu machado em mãos voce o mata</p>
+            <button class="btn-proximo" data-proximo="21">atravesse o rio</button>
+
+        </div>
+        <div class="passo" id="passo-20">
+            <img src="vitoria.jpg" alt="">
+            <p>voce retorna triunfante e o povoado comemora sua vitoria!</p>
+        </div>
+
+
+        </div>
+        <div class="passo" id="passo-21">
+            <p>após um tempo de ter atravessado o rio você se depara com uma silhueta caida no chão, oque fazer? </p>
+            <button class="btn-proximo" data-proximo="22">pegue um galho para atacar</button>
+            <button class="btn-proximo" data-proximo="22">cutuque com o pé</button>
+            <button class="btn-proximo" data-proximo="22">mate com seu machado</button>
+
+        </div>
+        <div class="passo" id="passo-22">
+            <img src="elf2.jpg" alt="">
+            <p>voce percebe que é uma elfa mulher</p>
+            <button class="btn-proximo" data-proximo="24">ajude</button>
+            <button class="btn-proximo" data-proximo="24">mate</button>
+            <button class="btn-proximo" data-proximo="23">abuse dela</button>
+        </div>
+
+        </div>
+        <div class="passo" id="passo-23">
+            <img src="elf.jpg" alt="">
+            <p>voce vai abusa-la, porem, ela diz que foi um teste e te mata sem rancor nenhum
+            <p>
+                <button class="btn-proximo" data-proximo="100">volte ao começo(restart)</button>
+
+        </div>
+        <div class="passo" id="passo-24">
+            <p>voce decide mata-la e vai em direção a ela, nisso ela se levanta dizendo que era um teste, "voce matou
+                aquele ogro nos ajude!!!" e humildemente pede sua ajuda para matar um trant perverso que havia se
+                instalado em sua aldeia</p>
+            <img src="elf2.jpg" alt="">
+            <button class="btn-proximo" data-proximo="27">ajude</button>
+            <button class="btn-proximo" data-proximo="25">recuse</button>
+        </div>
+        <div class="passo" id="passo-25">
+            <p>voce recusou, ela com o olhar frio diz procurar alguem de coragem e nao um fracote como tu!</p>
+            <img src="elf.jpg" alt="">
+            <button class="btn-proximo" data-proximo="26">Epílogo</button>
+
+        </div>
+
+        <div class="passo" id="passo-26">
+            <p>voce volta de onde veio, as pessoas te olham com instisfação, voce fica sabendo que uma vila no meio da
+                floresta foi destruda e fica com o remorso pro resto da vida</p>
+            <img src="" alt="">
+            <button class="btn-proximo" data-proximo="100">volte ao começo(restart)</button>
+
+        </div>
+
+
+
+        <div class="passo" id="passo-27">
+            <p>voce decide que vai ajudar ela, nisso, de repente voce ve que uma barreira se desfez em volta de tu, voce
+                ja estava na aldeia </p>
+            <img src="" alt="">
+            <button class="btn-proximo" data-proximo="29">siga-a</button>
+            <button class="btn-proximo" data-proximo="28">explore a aldeia</button>
+        </div>
+        <div class="passo" id="passo-28">
+            <p>voce decide explorar a adeia, nisso, furtivamente voce furta os tesouros e esconde um local seguro ate
+                voce voltar </p>
+            <img src="reasure_0.jpg" alt="">
+            <button class="btn-proximo" data-proximo="29">siga a elfa agora</button>
+        </div>
+
+        <div class="passo" id="passo-29">
+            <p>a elfa te leva ate o chefe dela, um velho sabio da regiao, ele fornece dados especficos sobre o trant,
+                tamanho, um mapa, comprimento e como derrota-lo</p>
+            <img src="conhecendo anciao.jpg" alt="">
+            <button class="btn-proximo" data-proximo="30">siga o mapa</button>
+
+        </div>
+        <div class="passo" id="passo-30">
+            <p>ao sair ele te chama denovo, e te da um litro de saque</p>
+            <img src="oferecendo saque.jpg" alt="">
+            <button class="btn-proximo" data-proximo="31">eu nao bebo</button>
+            <button class="btn-proximo" data-proximo="35">obriigado,vai servir</button>
+        </div>
+        <div class="passo" id="passo-31">
+            <p>voce diz que nao bebe e joga de volta o fraco da bebida</p>
+            <img src="" alt="">
+            <button class="btn-proximo" data-proximo="32">seguir viajem</button>
+
+        </div>
+        <div class="passo" id="passo-32">
+            <p>depois de uma bos caminhada sua visao embaraça voce esta com sono e deita no pe de uma arvore</p>
+            <img src="treant.jpg" alt="">
+            <button class="btn-proximo" data-proximo="33">dormir</button>
+            <button class="btn-proximo" data-proximo="34">se estapejar</button>
+        </div>
+
+        <div class="passo" id="passo-33">
+            <p>voce esta realmete cansado e decide dormir um pouco, porem aquela arvore é o treant que voce procurava
+                ele te comeu vivo e destruiu a vila</p>
+            <img src="treant.jpg" alt="">
+            <button class="btn-proximo" data-proximo="100">volte ao começo(restart)</button>
+        </div>
+
+        <div class="passo" id="passo-34">
+            <p>voce se estapeja, logo ve que aquela arvore é o trant, a arvore é seca, quem dera tivesse aquele
+                saque.... ele te comeu vivo e destruiu a vila</p>
+            <img src="treant.jpg" alt="">
+            <button class="btn-proximo" data-proximo="100">volte ao começo(restart)</button>
+        </div>
+
+        <div class="passo" id="passo-35">
+            <p>voce aceita e segue seu rumo</p>
+            <img src="" alt="">
+            <button class="btn-proximo" data-proximo="36">seguir viajem</button>
+
+        </div>
+        <div class="passo" id="passo-36">
+            <p>depois de uma bos caminhada sua visao embaraça voce esta com sono e deita no pe de uma arvore</p>
+            <img src="treant.jpg" alt="">
+            <button class="btn-proximo" data-proximo="37">dormir</button>
+            <button class="btn-proximo" data-proximo="38">se estapejar</button>
+        </div>
+
+        <div class="passo" id="passo-37">
+            <p>voce esta realmete cansado e decide dormir um pouco, porem aquela arvore é o treant que voce procurava
+                ele te comeu vivo e destruiu a vila</p>
+            <img src="treant.jpg" alt="">
+            <button class="btn-proximo" data-proximo="100">volte ao começo(restart)</button>
+        </div>
+
+        <div class="passo" id="passo-38">
+            <p>voce se estapeja, logo ve que aquela arvore é o trant, a arvore é seca, voce joga todo o saque nela e faz
+                uma faisca com seu machado, ele pega fogo deslumbrantemente</p>
+            <img src="treant.jpg" alt="">
+            <button class="btn-proximo" data-proximo="39">volte a aldeia</button>
+        </div>
+
+
+        <div class="passo" id="passo-39">
+            <p>voce volta a aldeia e é recebido por uma grande festa, logo o ancião te faz a seguinte proposta, "se voce
+                ficar se casara com qualquer elfa que aqui exista e govenara a proxima linhagem"</p>
+            <img src="pilo.jpg" alt="">
+            <button class="btn-proximo" data-proximo="40">ficar na aldeia (Epílogo)</button>
+            <button class="btn-proximo" data-proximo="41">pegar o tesouro e ir embora (Epílogo)</button>
+
+        </div>
+        <div class="passo" id="passo-40">
+            <p>voce fica na aldeia, sua ideia de representante nao agrada muito os moradores mas voce nao liga e tem diversas elfas interessadas em voce</p>
+            <img src="" alt="">
+         
+        </div>
+        <div class="passo" id="passo-41">
+            <p>voce volta para o seu povoado, com o tesouro roubado voce entra na burguesia e desfruta do melhor pro resto da vida</p>
+            <img src="reasure_0.jpg" alt="">
+        
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
