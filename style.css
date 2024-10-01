@@ -11,8 +11,8 @@
 
 
 body {
-    background: image();
-    color: black;
+    background: black;
+    color: white;
     font-family: "Bai Jamjuree", sans-serif;
     display: flex;
     justify-content: center;
